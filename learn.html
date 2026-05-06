@@ -1,0 +1,130 @@
+v<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Learn Maths — MathSpark Academy</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body data-page="learn">
+    <header class="nav">
+        <div class="container nav-inner">
+            <a class="brand" href="index.html">
+                <div class="brand-badge">∑</div>
+                <div class="brand-title">
+                    <strong>MathSpark Academy</strong>
+                    <span>Learn • Practice • Solve</span>
+                </div>
+            </a>
+
+            <button class="nav-btn" data-nav-btn aria-label="Toggle menu">Menu</button>
+
+            <nav class="links" data-nav-links>
+                <a href="index.html" data-page="home">Home</a>
+                <a href="learn.html" data-page="learn">Learn</a>
+                <a href="practice.html" data-page="practice">Practice</a>
+                <a href="solver.html" data-page="solver">Solver</a>
+                <a href="about.html" data-page="about">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container">
+            <h1 style="margin:0 0 10px;">Learn Maths</h1>
+            <p class="small" style="margin:0 0 18px;">
+                Choose a topic. Each topic page can later be expanded with videos, examples, and exercises.
+            </p>
+
+            <div class="topic-grid">
+                <div class="card topic">
+                    <h3>Addition</h3>
+                    <p>Combine numbers to get a total.</p>
+                    <div class="tagrow">
+                        <span class="tag">Basics</span><span class="tag">Number sense</span>
+                    </div>
+                    <div class="notice">
+                        Example: 8 + 5 = 13
+                    </div>
+                </div>
+
+                <div class="card topic">
+                    <h3>Subtraction</h3>
+                    <p>Find the difference between numbers.</p>
+                    <div class="tagrow">
+                        <span class="tag">Basics</span><span class="tag">Word problems</span>
+                    </div>
+                    <div class="notice">
+                        Example: 15 − 6 = 9
+                    </div>
+                </div>
+
+                <div class="card topic">
+                    <h3>Multiplication</h3>
+                    <p>Repeated addition made faster.</p>
+                    <div class="tagrow">
+                        <span class="tag">Times table</span><span class="tag">Speed</span>
+                    </div>
+                    <div class="notice">
+                        Example: 4 × 3 = 12
+                    </div>
+                </div>
+
+                <div class="card topic">
+                    <h3>Division</h3>
+                    <p>Share equally or split into groups.</p>
+                    <div class="tagrow">
+                        <span class="tag">Sharing</span><span class="tag">Fractions</span>
+                    </div>
+                    <div class="notice">
+                        Example: 20 ÷ 4 = 5
+                    </div>
+                </div>
+
+                <div class="card topic">
+                    <h3>Fractions</h3>
+                    <p>Understand parts of a whole.</p>
+                    <div class="tagrow">
+                        <span class="tag">½</span><span class="tag">¼</span><span class="tag">¾</span>
+                    </div>
+                    <div class="notice">
+                        Example: 1/2 of 10 = 5
+                    </div>
+                </div>
+
+                <div class="card topic">
+                    <h3>Basic Algebra</h3>
+                    <p>Use letters to represent unknown numbers.</p>
+                    <div class="tagrow">
+                        <span class="tag">x</span><span class="tag">y</span><span class="tag">Solve</span>
+                    </div>
+                    <div class="notice">
+                        Example: x + 3 = 9 → x = 6
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-pad" style="margin-top:16px;">
+                <h2 style="margin:0 0 8px; font-size:18px;">Next step</h2>
+                <p class="small" style="margin:0 0 12px;">
+                    When you’re ready, we can turn each topic into a detailed lesson page with examples and exercises.
+                </p>
+                <a class="btn btn-primary btn-mini" href="practice.html">Go to Practice</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>© <span id="year"></span> MathSpark Academy.</div>
+            <div class="small">Learning made simple.</div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

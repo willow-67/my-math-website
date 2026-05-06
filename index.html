@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MathSpark Academy — Learn & Solve Maths</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body data-page="home">
+    <header class="nav">
+        <div class="container nav-inner">
+            <a class="brand" href="index.html">
+                <div class="brand-badge">∑</div>
+                <div class="brand-title">
+                    <strong>MathSpark Academy</strong>
+                    <span>Learn • Practice • Solve</span>
+                </div>
+            </a>
+
+            <button class="nav-btn" data-nav-btn aria-label="Toggle menu">Menu</button>
+
+            <nav class="links" data-nav-links>
+                <a href="index.html" data-page="home">Home</a>
+                <a href="learn.html" data-page="learn">Learn</a>
+                <a href="practice.html" data-page="practice">Practice</a>
+                <a href="solver.html" data-page="solver">Solver</a>
+                <a href="about.html" data-page="about">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <h1>Make Maths Simple, Fun, and Easy to Master.</h1>
+                    <p>
+                        A student-friendly website that teaches maths step-by-step and helps you solve
+                        basic maths problems instantly — with practice questions that build confidence.
+                    </p>
+
+                    <div class="pills">
+                        <span class="pill">🎯 <b>Beginner-friendly</b> lessons</span>
+                        <span class="pill">🧠 <b>Practice</b> quizzes</span>
+                        <span class="pill">⚡ <b>Instant</b> solver</span>
+                    </div>
+
+                    <div class="cta-row">
+                        <a class="btn btn-primary" href="learn.html">Start Learning</a>
+                        <a class="btn btn-ghost" href="solver.html">Use the Solver</a>
+                    </div>
+
+                    <div class="kpi" style="margin-top:18px">
+                        <div class="box">
+                            <strong>5+</strong>
+                            <span>Core topics</span>
+                        </div>
+                        <div class="box">
+                            <strong>Quick</strong>
+                            <span>Practice mode</span>
+                        </div>
+                        <div class="box">
+                            <strong>Steps</strong>
+                            <span>Simple explanations</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-pad">
+                    <h2 style="margin:0 0 10px; font-size:18px;">Today’s Mini Challenge</h2>
+                    <p class="small" style="margin:0 0 12px;">
+                        Warm up your brain with quick maths.
+                    </p>
+
+                    <div class="notice">
+                        <b>Question:</b> If you have 15 apples and give out 6, how many are left?
+                        <hr class="sep" />
+                        <span class="small"><b>Hint:</b> Use subtraction: 15 − 6</span>
+                    </div>
+
+                    <div style="margin-top:12px" class="notice good">
+                        <b>Answer:</b> 9 apples ✅
+                    </div>
+
+                    <hr class="sep" />
+                    <p class="small" style="margin:0">
+                        Tip: Practice 5 minutes daily — consistency beats cramming.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="grid3">
+                    <div class="card feature">
+                        <h3>Clear Lessons</h3>
+                        <p>Short explanations with examples your students can relate to.</p>
+                    </div>
+                    <div class="card feature">
+                        <h3>Smart Practice</h3>
+                        <p>Quick quizzes to check understanding and improve speed.</p>
+                    </div>
+                    <div class="card feature">
+                        <h3>Basic Solver</h3>
+                        <p>Add, subtract, multiply, divide — plus simple steps.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>© <span id="year"></span> MathSpark Academy. All rights reserved.</div>
+            <div class="small">Built with HTML • CSS • JavaScript</div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
